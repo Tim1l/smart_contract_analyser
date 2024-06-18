@@ -35,8 +35,7 @@ python smart_contract_analysis/predict_vulnerability.py
 
 Authors
 
-    Voltius team
-    Contributors
+    tim1l
 
 License
 
