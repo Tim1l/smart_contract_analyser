@@ -1,0 +1,99 @@
+{
+  "LoyaltyProgram": {
+    "abi": [
+      {
+        "constant": true,
+        "inputs": [
+          {
+            "name": "",
+            "type": "address"
+          }
+        ],
+        "name": "members",
+        "outputs": [
+          {
+            "name": "points",
+            "type": "uint256"
+          },
+          {
+            "name": "level",
+            "type": "uint256"
+          }
+        ],
+        "payable": false,
+        "type": "function"
+      },
+      {
+        "constant": true,
+        "inputs": [
+          {
+            "name": "member",
+            "type": "address"
+          }
+        ],
+        "name": "getLevel",
+        "outputs": [
+          {
+            "name": "",
+            "type": "uint256"
+          }
+        ],
+        "payable": false,
+        "type": "function"
+      },
+      {
+        "constant": false,
+        "inputs": [
+          {
+            "name": "member",
+            "type": "address"
+          },
+          {
+            "name": "points",
+            "type": "uint256"
+          }
+        ],
+        "name": "redeemPoints",
+        "outputs": [],
+        "payable": false,
+        "type": "function"
+      },
+      {
+        "constant": false,
+        "inputs": [
+          {
+            "name": "member",
+            "type": "address"
+          },
+          {
+            "name": "points",
+            "type": "uint256"
+          }
+        ],
+        "name": "earnPoints",
+        "outputs": [],
+        "payable": false,
+        "type": "function"
+      },
+      {
+        "constant": true,
+        "inputs": [
+          {
+            "name": "member",
+            "type": "address"
+          }
+        ],
+        "name": "getPoints",
+        "outputs": [
+          {
+            "name": "",
+            "type": "uint256"
+          }
+        ],
+        "payable": false,
+        "type": "function"
+      }
+    ],
+    "bytecode": "6060604052341561000f57600080fd5b5b6105408061001f6000396000f30060606040526000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff16806308ae4b0c1461006a578063817c8966146100be578063b85da8d21461010b578063d909d5e31461014d578063ee204abb1461018f575b600080fd5b341561007557600080fd5b6100a1600480803573ffffffffffffffffffffffffffffffffffffffff169060200190919050506101dc565b604051808381526020018281526020019250505060405180910390f35b34156100c957600080fd5b6100f5600480803573ffffffffffffffffffffffffffffffffffffffff16906020019091905050610200565b6040518082815260200191505060405180910390f35b341561011657600080fd5b61014b600480803573ffffffffffffffffffffffffffffffffffffffff1690602001909190803590602001909190505061024c565b005b341561015857600080fd5b61018d600480803573ffffffffffffffffffffffffffffffffffffffff169060200190919080359060200190919050506102f0565b005b341561019a57600080fd5b6101c6600480803573ffffffffffffffffffffffffffffffffffffffff1690602001909190505061034d565b6040518082815260200191505060405180910390f35b60006020528060005260406000206000915090508060000154908060010154905082565b60008060008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000206001015490505b919050565b806000808473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600001541015151561029c57600080fd5b806000808473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600001600082825403925050819055505b5050565b806000808473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000206000016000828254019250508190555061034882610399565b5b5050565b60008060008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000206000015490505b919050565b6103e86000808373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000206000015411156104305760036000808373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060010181905550610510565b6101f46000808373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000206000015411156104c75760026000808373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000206001018190555061050f565b60016000808373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600101819055505b5b5b505600a165627a7a72305820d3651f0d5148d18611826f4c2f9bba002144edfdd6dcda505c8051665add2c260029"
+  }
+}

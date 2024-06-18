@@ -1,0 +1,80 @@
+{
+  "Vulnerable": {
+    "abi": [
+      {
+        "constant": true,
+        "inputs": [
+          {
+            "name": "",
+            "type": "address"
+          }
+        ],
+        "name": "userBalance",
+        "outputs": [
+          {
+            "name": "",
+            "type": "uint256"
+          }
+        ],
+        "payable": false,
+        "type": "function"
+      },
+      {
+        "constant": false,
+        "inputs": [],
+        "name": "withdraw",
+        "outputs": [],
+        "payable": false,
+        "type": "function"
+      },
+      {
+        "constant": false,
+        "inputs": [],
+        "name": "deposit",
+        "outputs": [],
+        "payable": true,
+        "type": "function"
+      },
+      {
+        "anonymous": false,
+        "inputs": [
+          {
+            "indexed": false,
+            "name": "user",
+            "type": "address"
+          },
+          {
+            "indexed": false,
+            "name": "amount",
+            "type": "uint256"
+          }
+        ],
+        "name": "LogDeposit",
+        "type": "event"
+      },
+      {
+        "anonymous": false,
+        "inputs": [
+          {
+            "indexed": false,
+            "name": "user",
+            "type": "address"
+          },
+          {
+            "indexed": false,
+            "name": "amount",
+            "type": "uint256"
+          },
+          {
+            "indexed": false,
+            "name": "success",
+            "type": "bool"
+          }
+        ],
+        "name": "LogWithdraw",
+        "type": "event"
+      }
+    ],
+    "bytecode": "6060604052341561000f57600080fd5b5b6103748061001f6000396000f30060606040526000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680630103c92b146100545780633ccfd60b146100a1578063d0e30db0146100b6575b600080fd5b341561005f57600080fd5b61008b600480803573ffffffffffffffffffffffffffffffffffffffff169060200190919050506100c0565b6040518082815260200191505060405180910390f35b34156100ac57600080fd5b6100b46100d8565b005b6100be61028e565b005b60006020528060005260406000206000915090505481565b60008060003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000205490503373ffffffffffffffffffffffffffffffffffffffff168160405160006040518083038185876187965a03f192505050156102115760008060003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020819055507f4b018c4c44da02ef7ab2c63eeb5fc2dd57b828e414bfc3eb9e6fd51cc9f1901633826001604051808473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200183815260200182151515158152602001935050505060405180910390a161028a565b7f4b018c4c44da02ef7ab2c63eeb5fc2dd57b828e414bfc3eb9e6fd51cc9f1901633826000604051808473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200183815260200182151515158152602001935050505060405180910390a15b5b50565b346000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600082825401925050819055507f1b851e1031ef35a238e6c67d0c7991162390df915f70eaf9098dbf0b175a61983334604051808373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020018281526020019250505060405180910390a15b5600a165627a7a72305820cf35d71693504f950e336d3775f6aee31d9a9638d2d4ebd47986e0d0e7dcd7de0029"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "SimpleStorage": {
+    "abi": [
+      {
+        "constant": true,
+        "inputs": [],
+        "name": "storedData",
+        "outputs": [
+          {
+            "name": "",
+            "type": "uint256"
+          }
+        ],
+        "payable": false,
+        "type": "function"
+      },
+      {
+        "constant": false,
+        "inputs": [
+          {
+            "name": "x",
+            "type": "uint256"
+          }
+        ],
+        "name": "set",
+        "outputs": [],
+        "payable": false,
+        "type": "function"
+      },
+      {
+        "constant": true,
+        "inputs": [],
+        "name": "get",
+        "outputs": [
+          {
+            "name": "",
+            "type": "uint256"
+          }
+        ],
+        "payable": false,
+        "type": "function"
+      }
+    ],
+    "bytecode": "6060604052341561000f57600080fd5b5b6101048061001f6000396000f30060606040526000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680632a1afcd914605157806360fe47b11460775780636d4ce63c146097575b600080fd5b3415605b57600080fd5b606160bd565b6040518082815260200191505060405180910390f35b3415608157600080fd5b6095600480803590602001909190505060c3565b005b341560a157600080fd5b60a760ce565b6040518082815260200191505060405180910390f35b60005481565b806000819055505b50565b6000805490505b905600a165627a7a72305820bfc9dc2c1d21bec7c1675754d5893f8bbd3f96ae58178394830c8c5fc1a007ff0029"
+  }
+}

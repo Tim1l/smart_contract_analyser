@@ -1,0 +1,59 @@
+{
+  "VulnerableReentrancy": {
+    "abi": [
+      {
+        "constant": true,
+        "inputs": [
+          {
+            "name": "",
+            "type": "address"
+          }
+        ],
+        "name": "userBalance",
+        "outputs": [
+          {
+            "name": "",
+            "type": "uint256"
+          }
+        ],
+        "payable": false,
+        "type": "function"
+      },
+      {
+        "constant": true,
+        "inputs": [],
+        "name": "getBalance",
+        "outputs": [
+          {
+            "name": "",
+            "type": "uint256"
+          }
+        ],
+        "payable": false,
+        "type": "function"
+      },
+      {
+        "constant": false,
+        "inputs": [
+          {
+            "name": "amount",
+            "type": "uint256"
+          }
+        ],
+        "name": "withdraw",
+        "outputs": [],
+        "payable": false,
+        "type": "function"
+      },
+      {
+        "constant": false,
+        "inputs": [],
+        "name": "deposit",
+        "outputs": [],
+        "payable": true,
+        "type": "function"
+      }
+    ],
+    "bytecode": "6060604052341561000f57600080fd5b5b6102838061001f6000396000f30060606040526000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680630103c92b1461005f57806312065fe0146100ac5780632e1a7d4d146100d5578063d0e30db0146100f8575b600080fd5b341561006a57600080fd5b610096600480803573ffffffffffffffffffffffffffffffffffffffff16906020019091905050610102565b6040518082815260200191505060405180910390f35b34156100b757600080fd5b6100bf61011a565b6040518082815260200191505060405180910390f35b34156100e057600080fd5b6100f6600480803590602001909190505061013a565b005b610100610208565b005b60006020528060005260406000206000915090505481565b60003073ffffffffffffffffffffffffffffffffffffffff163190505b90565b806000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020541015151561018757600080fd5b3373ffffffffffffffffffffffffffffffffffffffff168160405160006040518083038185876187965a03f19250505050806000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600082825403925050819055505b50565b346000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600082825401925050819055505b5600a165627a7a72305820f483cefbd3bb0238c4976f8fdd266dc6486a4d56a7ceb060b7808c777a0d51b30029"
+  }
+}
