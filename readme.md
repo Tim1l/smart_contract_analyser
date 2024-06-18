@@ -1,4 +1,4 @@
-# Voltius Core
+# smart_contract_analyser
 
 ## Overview
 
